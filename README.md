@@ -10,6 +10,8 @@ A more detailed analysis at http://www.pcg-random.org/posts/bob-jenkins-small-pr
 #include <random>
 #include <iostream>
 
+#include "jsf.hpp"
+
 Random::JsfRand<64> jsf;
 
 std::uniform_real_distribution<double> dist(1.0, 10.0);
